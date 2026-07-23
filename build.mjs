@@ -17,12 +17,10 @@ for (const plugin of plugins) {
 
   if (!existsSync(outPath)) mkdirSync(outPath, { recursive: true });
 
-  // manifest.json kopieren
   if (existsSync(join(pluginPath, "manifest.json"))) {
     copyFileSync(join(pluginPath, "manifest.json"), join(outPath, "manifest.json"));
   }
-
-  // index.ts/js bündeln
+  
   const entryFile = existsSync(join(pluginPath, "index.ts")) ? join(pluginPath, "index.ts") : join(pluginPath, "index.js");
 
   if (existsSync(entryFile)) {
