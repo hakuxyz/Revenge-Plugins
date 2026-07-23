@@ -1,14 +1,1 @@
-{
-  "name": "User Timezone",
-  "description": "Displays local time for users in their profile and via toast notifications.",
-  "authors": [
-    {
-      "name": "hakuxyz",
-      "id": "1301299089073242232"
-    }
-  ],
-  "main": "index.js",
-  "vendetta": {
-    "icon": "ic_clock"
-  }
-}
+{"name":"User Timezone","description":"Displays local time for users in their profile and via toast notifications.","authors":[{"name":"hakuxyz","id":"1301299089073242232"}],"main":"index.js","vendetta":{"icon":"ic_clock"}}
